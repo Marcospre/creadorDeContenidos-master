@@ -1,0 +1,15 @@
+1º descargar selenium grid
+https://www.selenium.dev/downloads/
+2º guardarlo en el proyecto carpeta ejecutorGrid
+
+3º abrir consola comandos: java -jar selenium-server-standalone-4.8.0.jar -role hub
+
+4º Se carga el servidor en la url: http://localhost:4444
+
+5º acceder a http://localhost:4444/grid/console
+
+6º crear Nodos: 
+cmd: java -jar selenium-server-standalone-4.8.0.jar -role node -hub http://localhost:4444
+
+7º cambiar el controlador:
+RemoteWebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), new ChromeOptions());

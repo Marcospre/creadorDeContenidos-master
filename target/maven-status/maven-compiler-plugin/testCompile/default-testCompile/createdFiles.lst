@@ -1,0 +1,11 @@
+configuracionWebDriver\PageBase$1.class
+steps\FomularioContactoStep.class
+creadorContenidoShop\Inicio\PageInico.class
+configuracionWebDriver\PageBase.class
+creadorContenidoShop\Contacto\RellenarFormulario.class
+configuracionWebDriver\ConfigReader.class
+crossBrowser\DriverFactory$1.class
+modelos\Contacto.class
+runners\RunTest.class
+creadorContenidoShop\Inicio\Navega.class
+creadorContenidoShop\Contacto\PageContacto.class

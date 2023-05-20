@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-02T15:01:06 CEST" name="Suite" finished-at="2023-05-02T15:01:12 CEST" duration-ms="6390">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RunnerWithTestNG@1ebd319f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RunnerWithTestNG@3c947bc5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-05-02T15:01:06 CEST" name="TestChrome" finished-at="2023-05-02T15:01:12 CEST" duration-ms="6338">
+      <class name="runners.RunnerWithTestNG">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:runners.RunnerWithTestNG@1ebd319f]" started-at="2023-05-02T15:01:06 CEST" name="defineBrowser" finished-at="2023-05-02T15:01:06 CEST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineBrowser -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.RunnerWithTestNG@1ebd319f]" started-at="2023-05-02T15:01:06 CEST" name="setUpClass" finished-at="2023-05-02T15:01:06 CEST" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@73041b7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RunnerWithTestNG@1ebd319f]" started-at="2023-05-02T15:01:06 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-02T15:01:12 CEST" duration-ms="5835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Rellenar Formulario con datos"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Formulario Contacto"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.RunnerWithTestNG@1ebd319f]" started-at="2023-05-02T15:01:12 CEST" name="tearDownClass" finished-at="2023-05-02T15:01:12 CEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="close()[pri:0, instance:runners.RunnerWithTestNG@1ebd319f]" started-at="2023-05-02T15:01:12 CEST" name="close" finished-at="2023-05-02T15:01:12 CEST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- runners.RunnerWithTestNG -->
+    </test> <!-- TestChrome -->
+    <test started-at="2023-05-02T15:01:12 CEST" name="TestFirefox" finished-at="2023-05-02T15:01:12 CEST" duration-ms="28">
+      <class name="runners.RunnerWithTestNG">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:runners.RunnerWithTestNG@3c947bc5]" started-at="2023-05-02T15:01:12 CEST" name="defineBrowser" finished-at="2023-05-02T15:01:12 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineBrowser -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.RunnerWithTestNG@3c947bc5]" started-at="2023-05-02T15:01:12 CEST" name="setUpClass" finished-at="2023-05-02T15:01:12 CEST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1235151c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RunnerWithTestNG@3c947bc5]" started-at="2023-05-02T15:01:12 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-02T15:01:12 CEST" duration-ms="14" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Rellenar Formulario con datos"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Formulario Contacto"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'MK29832P', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://creadordecontenidoshop.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\doprsama\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65224}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65224/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'MK29832P', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, get {url=https://creadordecontenidoshop.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\doprsama\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65224}, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65224/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:145)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+at configuracionWebDriver.PageBase.navegar(PageBase.java:150)
+at creadorContenidoShop.Inicio.PageInico.entrar(PageInico.java:30)
+at creadorContenidoShop.Inicio.Navega.entrarPaginaPrincipal(Navega.java:12)
+at steps.FomularioContactoStep.el_cliente_entra_en_la_pagina_principal(FomularioContactoStep.java:38)
+at ✽.el cliente entra en la pagina principal(file:///C:/Users/doprsama/eclipse-workspace/creadorDeContenidos-master/src/test/resources/features/FormularioContacto.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.RunnerWithTestNG@3c947bc5]" started-at="2023-05-02T15:01:12 CEST" name="tearDownClass" finished-at="2023-05-02T15:01:12 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="close()[pri:0, instance:runners.RunnerWithTestNG@3c947bc5]" started-at="2023-05-02T15:01:12 CEST" name="close" finished-at="2023-05-02T15:01:12 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- runners.RunnerWithTestNG -->
+    </test> <!-- TestFirefox -->
+  </suite> <!-- Suite -->
+</testng-results>
